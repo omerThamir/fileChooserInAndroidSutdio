@@ -22,13 +22,6 @@
 
             Uri uri = data.getData();
 
-            String path = Utils.FileUtils.getPath(this, uri);
-
-            Toast.makeText(this, path, Toast.LENGTH_LONG).show();
-            //    Log.i("Test", "Result URI " + data.getData());
-           
-
-
         }
 
         super.onActivityResult(requestCode, resultCode, data);
